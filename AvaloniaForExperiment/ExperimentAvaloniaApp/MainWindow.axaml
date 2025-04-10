@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="250"
+        x:Class="ExperimentAvaloniaApp.MainWindow"
+        Title="ExperimentAvaloniaApp"
+		x:CompileBindings="True">
+	
+			<Button HorizontalAlignment="Center" ZIndex="1"
+					VerticalAlignment="Center"
+					VerticalContentAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Width="150" Height="50"
+					Click="ChangeThemeButton_Click">
+				Change theme
+			</Button>
+
+</Window>
